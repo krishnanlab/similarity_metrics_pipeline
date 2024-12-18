@@ -7,7 +7,7 @@
 
 This repository provides a pipeline for calculating pairwise text similarities between biological sample and study descriptions. Given the ground truth labels for the samples, the pipeline computes similarities using the following methods:
 
-- **BLEU Score** (Bilingual Evaluation Understudy)  
+- **BLEU Score (Bilingual Evaluation Understudy)**  
 - **Word Mover's Distance (WMD)**  
 - **Cosine Similarity**  
 
