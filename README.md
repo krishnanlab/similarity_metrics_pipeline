@@ -1,16 +1,25 @@
-# similarity_metrics_pipeline
-Comparing Text Descriptions Using BLEU, WMD, and Cosine Similarities
-Overview
+# **similarity_metrics_pipeline**
+### *Comparing Text Descriptions Using BLEU, WMD, and Cosine Similarities*
+
+---
+
+## **Overview**
 
 This repository provides a pipeline for calculating pairwise text similarities between biological sample and study descriptions. Given the ground truth labels for the samples, the pipeline computes similarities using the following methods:
 
-BLEU Score (Bilingual Evaluation Understudy)
-Word Mover's Distance (WMD)
-Cosine Similarity
+- **BLEU Score** (Bilingual Evaluation Understudy)  
+- **Word Mover's Distance (WMD)**  
+- **Cosine Similarity**  
 
-The workflow ensures comparisons occur only between samples from different experiments (GSEs).
+The workflow ensures comparisons occur only between samples from different experiments (GSEs).  
 
-The results are used to evaluate how well these similarity metrics reflect the true relationships between samples and studies 
+The results are used to evaluate how well these similarity metrics reflect the **true relationships between samples and studies**.
+
+---
+
+## **Project Structure**
+
+```plaintext
 project_repo/
 ├── data/                            # Input and processed data
 │   ├── processed_descriptions.tsv   # Preprocessed sample descriptions
@@ -39,7 +48,3 @@ project_repo/
 │   └── filtered_pairs_cosine.csv.gz # Ground truth filtered Cosine pairs
 │
 └── README.md                        # Project documentation (this file)
-
-
-
-
