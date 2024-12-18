@@ -35,10 +35,7 @@ project_repo/
 ├── results/                         # Output results
 │   ├── bleu_scores.csv.gz           # BLEU similarity scores
 │   ├── wmd_scores.csv.gz            # WMD similarity scores
-│   ├── cosine_scores.csv.gz         # Cosine similarity scores
-│   └── filtered_pairs_bleu.csv.gz        # Ground truth filtered sample pairs
-│   └── filtered_pairs_wmd.csv.gz  
-│   └── filtered_pairs_cosine.csv.gz   
+│   ├── cosine_scores.csv.gz         # Cosine similarity scores 
 └── README.md                        # Project documentation (this file)
 
 
