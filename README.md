@@ -1,4 +1,4 @@
-# **Similarity_Metrics_Pipeline**
+# **Similarity Metrics Pipeline**
 ### *Comparing Text Descriptions Using BLEU, WMD, and Cosine Similarities*
 
 ---
@@ -27,24 +27,14 @@ project_repo/
 │
 ├── scripts/                         # Python scripts for similarity calculations
 │   ├── calculate_bleu_scores.py          # Calculates BLEU scores
-│   ├── calculate_wmd_scores.py           # Calculates WMD similarity
-│   ├── calculate_cosine_scores.py        # Calculates Cosine similarity
 │   ├── filter_ground_truth_pairs_bleu.py # Filters BLEU pairs based on ground truth labels
-│   ├── filter_ground_truth_pairs_wmd.py  # Filters WMD pairs based on ground truth labels
-│   └── filter_ground_truth_pairs_cosine.py # Filters Cosine pairs based on ground truth labels
 │
 ├── bin/                             # Executable scripts and tools
 │   ├── submit_bleu_job.sbatch       # SLURM script for BLEU similarity job arrays
-│   ├── submit_wmd_job.sbatch        # SLURM script for WMD similarity job arrays
-│   ├── submit_cosine_job.sbatch     # SLURM script for Cosine similarity job arrays
 │   └── readme.txt                   # Details about external tools and their setup
 │
 ├── results/                         # Output results
 │   ├── bleu_scores.csv.gz           # BLEU similarity scores
-│   ├── wmd_scores.csv.gz            # WMD similarity scores
-│   ├── cosine_scores.csv.gz         # Cosine similarity scores
 │   ├── filtered_pairs_bleu.csv.gz   # Ground truth filtered BLEU pairs
-│   ├── filtered_pairs_wmd.csv.gz    # Ground truth filtered WMD pairs
-│   └── filtered_pairs_cosine.csv.gz # Ground truth filtered Cosine pairs
 │
 └── README.md                        # Project documentation (this file)
