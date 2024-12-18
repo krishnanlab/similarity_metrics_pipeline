@@ -11,8 +11,6 @@ Cosine Similarity
 The workflow ensures comparisons occur only between samples from different experiments (GSEs).
 
 The results are used to evaluate how well these similarity metrics reflect the true relationships between samples and studies 
-
-
 project_repo/
 ├── data/                            # Input and processed data
 │   ├── processed_descriptions.tsv   # Preprocessed sample descriptions
