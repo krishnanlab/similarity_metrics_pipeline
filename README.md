@@ -1,4 +1,4 @@
-# **similarity_metrics_pipeline**
+# **Similarity_Metrics_Pipeline**
 ### *Comparing Text Descriptions Using BLEU, WMD, and Cosine Similarities*
 
 ---
