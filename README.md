@@ -40,10 +40,11 @@ project_repo/
 │
 └── README.md                        # Project documentation (this file)
 
-
+```
 
 ---
 ## **Project Structure (goal)**
+```plaintext
 project_repo/
 ├── data/                            # Input and processed data
 │   ├── processed_descriptions.tsv   # Preprocessed sample descriptions
@@ -72,4 +73,4 @@ project_repo/
 │   └── filtered_pairs_cosine.csv.gz # Ground truth filtered Cosine pairs
 │
 └── README.md                        
-
+```
