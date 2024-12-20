@@ -22,11 +22,11 @@ Note: I am starting with BLEU score calculations and will implement the rest of 
 
 ```plaintext
 project_repo/
-├── data/                            # Input and processed data
-│   ├── processed_descriptions.tsv   # Preprocessed sample descriptions
-│   └── bleu_scores.csv.gz           # BLEU similarity scores
+├── data/                             # Input and processed data
+│   ├── processed_descriptions.tsv    # Preprocessed sample descriptions
+│   └── bleu_scores.csv.gz            # BLEU similarity scores
 ├── bin/                                  # Executable scripts 
-│   ├── tissue_labels_CL:0000000.csv     # tissue input file
+│   ├── tissue_labels_CL:0000000.csv      # tissue input file
 │  
 ├── scripts/                         # Python scripts for similarity calculations
 │   ├── calculate_bleu_scores.py          # Calculates BLEU scores
@@ -36,7 +36,7 @@ project_repo/
 │   ├── submit_bleu_job.sbatch            # SLURM script for BLEU similarity job arrays
 │   └── test_job_tissue_CL0000000.sbatch  # SLURM script for filter_ground_truth_pairs_bleu.py job submission            
 │
-├── results/                         # Output results
+├── results/                               # Output results
 │   └── bleu_scores_with_category.csv.gz   # final product: Ground truth filtered BLEU pairs
 │
 └── README.md                        # Project documentation (this file)
