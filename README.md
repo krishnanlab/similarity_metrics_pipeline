@@ -42,6 +42,7 @@ project_repo/
 
 
 
+---
 ## **Project Structure (goal)**
 
 ```plaintext
