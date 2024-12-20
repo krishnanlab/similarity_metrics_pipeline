@@ -15,7 +15,7 @@ The workflow ensures comparisons occur only between samples from different exper
 
 The results are used to evaluate how well these similarity metrics reflect the **true relationships between samples and studies**.
 
-Note: I am starting with BLEU scores calculation and will implement the rest of the mertics later
+Note: I am starting with BLEU score calculations and will implement the rest of the mertics later
 ---
 
 ## **Project Structure (current)**
