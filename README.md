@@ -22,13 +22,13 @@ Note: I am starting with BLEU score calculations and will implement the rest of 
 
 ```plaintext
 project_repo/
-├── data/                             # Input and processed data
+├── data/                             # Input data
 │   ├── processed_descriptions.tsv    # Preprocessed sample descriptions
 │   └── bleu_scores.csv.gz            # BLEU similarity scores
 ├── bin/                                  # Executable scripts 
 │   ├── tissue_labels_CL:0000000.csv      # tissue input file
 │  
-├── scripts/                         # Python scripts for similarity calculations
+├── scripts/                         # Python scripts 
 │   ├── calculate_bleu_scores.py          # Calculates BLEU scores
 │   ├── filter_ground_truth_pairs_bleu.py # Filters BLEU pairs based on ground truth labels
 │
