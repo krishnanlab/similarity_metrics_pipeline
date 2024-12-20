@@ -33,7 +33,7 @@ project_repo/
 │   ├── filter_ground_truth_pairs_bleu.py # Filters BLEU pairs based on ground truth labels
 │
 ├── run/                                  # job scripts 
-│   ├── submit_bleu_job.sbatch            # SLURM script for BLEU similarity job arrays
+│   ├── submit_bleu_job.sbatch            # SLURM script for BLEU similarity job submission 
 │   └── test_job_tissue_CL0000000.sbatch  # SLURM script for filter_ground_truth_pairs_bleu.py job submission            
 │
 ├── results/                               # Output results
