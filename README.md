@@ -44,8 +44,6 @@ project_repo/
 
 ---
 ## **Project Structure (goal)**
-
-```plaintext
 project_repo/
 ├── data/                            # Input and processed data
 │   ├── processed_descriptions.tsv   # Preprocessed sample descriptions
