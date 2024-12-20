@@ -6,7 +6,7 @@
 #SBATCH --time=04:00:00                 # Maximum runtime 
 #SBATCH --ntasks=1                      # Number of tasks
 #SBATCH --cpus-per-task=2               # Number of CPUs per task
-#SBATCH --mem=16G                        # Memory per node (8 GB)
+#SBATCH --mem=16G                        # Memory per node (16 GB)
 
 # Run the Python script
 python src/calculate_bleu_scores.py
