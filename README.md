@@ -32,11 +32,11 @@ project_repo/
 │   ├── calculate_bleu_scores.py          # Calculates BLEU scores
 │   ├── filter_ground_truth_pairs_bleu.py # Filters BLEU pairs based on ground truth labels
 │
-├── run/                                  # job scripts 
+├── run/                             # job scripts 
 │   ├── submit_bleu_job.sbatch            # SLURM script for BLEU similarity job submission 
 │   └── test_job_tissue_CL0000000.sbatch  # SLURM script for filter_ground_truth_pairs_bleu.py job submission            
 │
-├── results/                               # Output results
+├── results/                         # Output results
 │   └── bleu_scores_with_category.csv.gz   # final product: Ground truth filtered BLEU pairs
 │
 └── README.md                        # Project documentation (this file)
